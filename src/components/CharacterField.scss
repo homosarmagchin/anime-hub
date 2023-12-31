@@ -1,0 +1,19 @@
+
+#anime-container{
+    position: relative;
+    left: 240px;
+    display: block;
+}
+#anime-container > *{
+    padding: 1rem;
+}
+#anime-card{
+    overflow: auto;
+}
+@media (min-width:768px) {
+    #anime-container{
+        display: grid;
+        grid-auto-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
