@@ -7,7 +7,7 @@ export default function Characters({ posts }) {
             <div id='anime-container'>
                 {posts.map((post) => (
                     <div id='anime-card' key={post.hype}>
-                        <img alt={post.title.text} src={post.img} width={300} height={500} />
+                        <img alt={post.title.text} src={post.img} width={200} height={300} />
                         <p>{post.studio}</p>
                         <p>{post.genres.join(', ')}</p>
                         <p>{post.description}</p>

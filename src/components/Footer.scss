@@ -1,0 +1,29 @@
+.container{
+    position: relative;
+    top: 100px;
+}
+
+.main {
+    width: 100%;
+    background-color: #151e20;
+    position: absolute;
+    ul {
+
+        li {
+            padding: 5px 20px;
+            margin: 20px;
+            list-style-type: none;
+        }
+    }
+
+    img {
+        width: 30px;
+    }
+}
+
+section{
+    float: left;
+    margin: 20px;
+    padding: 10px;
+
+}

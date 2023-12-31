@@ -3,6 +3,7 @@ import CharacterField from './CharacterField';
 import './Container.scss';
 import Header from './Header.js';
 import logo from '../images/logo.jpg';
+import Footer from './Footer.js'
 export default function Container() {
   return (
     <div>
@@ -11,6 +12,7 @@ export default function Container() {
       </div>
       <Header />
       <CharacterField />
+      <Footer />
     </div>
   )
 }

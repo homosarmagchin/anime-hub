@@ -1,11 +1,16 @@
-#anime-container > *{
+body{    
+    background-color: #002a32;
+}
+#anime-container>* {
     padding: 1rem;
 }
-#anime-card{
+
+#anime-card {
     overflow: auto;
 }
+
 @media (min-width:768px) {
-    #anime-container{
+    #anime-container {
         display: grid;
         grid-auto-rows: 1fr;
         grid-template-columns: 1fr 1fr 1fr;
