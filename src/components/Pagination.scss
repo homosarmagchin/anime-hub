@@ -1,0 +1,24 @@
+#pagination{
+    position: absolute;
+    left: 520px;
+    font-size: 20px;
+    ul{
+        display: block;
+    }
+    li{
+        border-radius: 10px;
+        margin: 0;
+        padding: 10px 20px;
+        float: left;
+        cursor: pointer;
+        list-style-type: none;
+        color: #d6d6d6;
+    }
+    li:hover{
+        color: #111314;
+        background-color: #7c9fa7;
+    }
+    li:active{
+        background-color: #d6d6d6;
+    }
+}
