@@ -1,15 +1,21 @@
 body{
     color: aliceblue;
+    position: relative;
 }
 #logo{
     background-color: #081c1f;
     height: 200px;
     width: 100%;
     img{
-        position: relative;
+        position: absolute;
         top: 50px;
         left: 50px;
         width: 100px;
         height: 100px;
     }
+}
+#footer{
+    position: absolute;
+    top: 1500px;
+    bottom: 0;
 }

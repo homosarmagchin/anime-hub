@@ -2,6 +2,8 @@ body{
     background-color: #002a32;
 }
 #anime-container>* {
+    position: relative;
+    left: 52%;
     padding: 1rem;
 }
 
@@ -13,6 +15,6 @@ body{
     #anime-container {
         display: grid;
         grid-auto-rows: 1fr;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 400px 400px 400px;
     }
 }

@@ -17,7 +17,9 @@ export default function CharacterField() {
     <div>
       <div id='char-field'>
         <Characters posts={currentPosts} />
-        <Pagination postsPerPage={aniPerPage} totalPost={length} paginate={paginate} />
+        <div id='pagination'>
+          <Pagination postsPerPage={aniPerPage} totalPost={length} paginate={paginate} />
+        </div>
       </div>
     </div>
   )
