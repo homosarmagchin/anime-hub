@@ -4,9 +4,10 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-#head {
-    background-color: #002a32;
+
+.dropdown {
     position: relative;
+    display: inline-block;
 
     #arrow {
         border-radius: 0 20px 20px 0;
@@ -17,36 +18,60 @@ body {
         margin: 10px 0;
         padding: 40px 0 10px 0;
         background-color: #034451;
+
         img {
             width: 20px;
             height: 20px;
         }
-
     }
+}
 
-    #NavBar {
-        transition: 0.5s;
-        overflow-x: hidden;
-
-        ul {
-            display: none;
-            width: 13%;
-            background-color: white;
-            position: fixed;
-            left: -50px;
-            height: 200px;
-
-            li {
-                transition: 0.3s;
-                margin: 20px 0;
-                // background-color: aliceblue;
-                width: 180px;
-                list-style-type: none;
-                display: block;
-                color: rgb(223, 223, 223);
-                padding: 8px 16px;
-                text-decoration: none;
-            }
-        }
+.dropdown-content {
+    display: none;
+    position: fixed;
+    // width: 40px;
+    height: 50%;
+    bottom: 170px;
+    width: 180px;
+    // padding: 20px;
+    // min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    ul{
+        width: 120px;
     }
+    li {
+        width: 180px;
+        // margin: 20px;
+        padding: 20px;
+    }
+}
+
+.dropdown-content li{
+    // display: none;
+    position: relative;
+    left: -40px;
+    text-decoration: none;
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 30px ;
+    color: white;
+    // background-color: #034451;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    
+}
+.dropdown:hover{
+    // width: 190px;
+    li:hover{
+        
+        background-color: #034451;
+    }
+}
+.dropdown:hover #arrow {
+    display: none;
 }

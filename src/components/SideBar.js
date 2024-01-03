@@ -9,12 +9,11 @@ import arrow from '../images/right-arrow.png';
 export default function SideBar() {
     return (
         <div>
-            <div id='head'>
-
+            <div className='dropdown'>
                 <div id="arrow">
                     <img alt='arrow' src={arrow} />
                 </div>
-                <div id='NavBar'>
+                <div className='dropdown-content'>
                     <ul>
                         <li>
                             <div>
