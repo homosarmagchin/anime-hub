@@ -6,23 +6,47 @@ body {
 
 #head {
     background-color: #002a32;
-}
-#NavBar{
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        width: 20%;
-        background-color: #002a32;
+    position: relative;
+
+    #arrow {
+        border-radius: 0 20px 20px 0;
         position: fixed;
-        height: 100%;
-        overflow: auto;
+        top: 300px;
+        width: 30px;
+        height: 50px;
+        margin: 10px 0;
+        padding: 40px 0 10px 0;
+        background-color: #034451;
+        img {
+            width: 20px;
+            height: 20px;
+        }
+
     }
 
-    li div {
-        display: block;
-        color: wheat;
-        padding: 8px 16px;
-        text-decoration: none;
+    #NavBar {
+        transition: 0.5s;
+        overflow-x: hidden;
+
+        ul {
+            display: none;
+            width: 13%;
+            background-color: white;
+            position: fixed;
+            left: -50px;
+            height: 200px;
+
+            li {
+                transition: 0.3s;
+                margin: 20px 0;
+                // background-color: aliceblue;
+                width: 180px;
+                list-style-type: none;
+                display: block;
+                color: rgb(223, 223, 223);
+                padding: 8px 16px;
+                text-decoration: none;
+            }
+        }
     }
 }

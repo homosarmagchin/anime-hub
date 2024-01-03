@@ -10,7 +10,9 @@ export default function Container() {
       <div id='logo'>
         <img alt='logo' src={logo} />
       </div>
-      <SideBar />
+      <div id="sidebar">
+        <SideBar />
+      </div>
       <CharacterField />
       <div id='footer'>
         <Footer />

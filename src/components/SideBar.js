@@ -5,11 +5,15 @@ import NotFound from './NotFound';
 import About from './About';
 import './SideBar.scss';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
+import arrow from '../images/right-arrow.png';
 export default function SideBar() {
     return (
         <div>
             <div id='head'>
+
+                <div id="arrow">
+                    <img alt='arrow' src={arrow} />
+                </div>
                 <div id='NavBar'>
                     <ul>
                         <li>
