@@ -5,7 +5,9 @@ export default function Header() {
 
     return (
         <div>
-
+            <div id='hed'>
+                Header
+            </div>
         </div>
     )
 }

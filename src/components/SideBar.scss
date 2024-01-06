@@ -35,7 +35,8 @@ body {
     width: 180px;
     // padding: 20px;
     // min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 8px 16px 0px rgba(35, 3, 3, 0.2);
+    // border: solid white 0.01px;
     z-index: 1;
     ul{
         width: 120px;
@@ -63,12 +64,12 @@ body {
 
 .dropdown:hover .dropdown-content {
     display: block;
+    border-radius: 0 20px 20px 0;
     
 }
 .dropdown:hover{
     // width: 190px;
-    li:hover{
-        
+    li:hover{        
         background-color: #034451;
     }
 }

@@ -5,10 +5,15 @@ body {
 
 #logo {
     background-color: #081c1f;
-    height: 200px;
+    height: 300px;
     width: 100%;
+    background-image: url('../images/c1fcbae83968f1b23418c59158ff1f8d.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
     img {
+        border-radius: 50%;
         margin: 0;
         padding: 0;
         position: absolute;
@@ -18,10 +23,16 @@ body {
         height: 100px;
     }
 }
-#sidebar{
+
+#sidebar {
     position: absolute;
     z-index: 5;
 }
+
+#char {
+    margin-top: 100px;
+}
+
 #footer {
     position: absolute;
     // top: 1700px;

@@ -1,6 +1,7 @@
-import React from 'react'
-import insta from '../images/insta.png'
-import './Footer.scss'
+import React from 'react';
+import insta from '../images/insta.png';
+import './Footer.scss';
+import fb from '../images/pngegg.png';
 export default function Footer() {
     return (
         <div className='container'>
@@ -28,6 +29,9 @@ export default function Footer() {
                         </li>
                         <li>
                             <img alt='insta' src={insta} />
+                        </li>
+                        <li>
+                            <img alt='fb' src={fb} />
                         </li>
                     </ul>
                 </div>
