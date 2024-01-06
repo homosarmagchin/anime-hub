@@ -1,6 +1,7 @@
 import React from 'react'
 import './SideBar.scss';
 import arrow from '../images/right-arrow.png';
+import { Link } from 'react-router-dom';
 export default function SideBar() {
 
     
@@ -15,22 +16,22 @@ export default function SideBar() {
                     <ul>
                         <li>
                             <div>
-                                Home
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                About
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                Contact
-                            </div>
-                        </li>
-                        <li>
-                            <div>
                                 Search
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <Link to="/">Home</Link>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <Link to="about">About</Link>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <Link to="Contact">Contact</Link>
                             </div>
                         </li>
                     </ul>

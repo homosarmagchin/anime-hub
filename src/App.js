@@ -3,6 +3,7 @@ import Home from '../src/components/Home';
 import Contact from '../src/components/Contact';
 import NotFound from '../src/components/NotFound';
 import About from '../src/components/About';
+// import { URLSearchParams } from 'react-router-dom'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 function App() {
   
