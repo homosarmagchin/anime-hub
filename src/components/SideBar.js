@@ -4,7 +4,7 @@ import arrow from '../images/right-arrow.png';
 import { Link } from 'react-router-dom';
 export default function SideBar() {
 
-    
+
 
     return (
         <div>
@@ -21,17 +21,29 @@ export default function SideBar() {
                         </li>
                         <li>
                             <div>
-                                <Link to="/">Home</Link>
+                                <Link to="/">
+                                    <div className='li-col'>
+                                        Home
+                                    </div>
+                                </Link>
                             </div>
                         </li>
                         <li>
                             <div>
-                                <Link to="about">About</Link>
+                                <Link to="about">
+                                    <div className='li-col'>
+                                        About
+                                    </div>
+                                </Link>
                             </div>
                         </li>
                         <li>
                             <div>
-                                <Link to="Contact">Contact</Link>
+                                <Link to="Contact">
+                                    <div className='li-col'>
+                                        Contact
+                                    </div>
+                                </Link>
                             </div>
                         </li>
                     </ul>

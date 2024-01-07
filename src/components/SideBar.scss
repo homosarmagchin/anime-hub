@@ -43,6 +43,9 @@ body {
     }
     li {
         width: 180px;
+        text-decoration: none;
+        list-style-type: none;
+        color: aliceblue;
         // margin: 20px;
         padding: 20px;
     }
@@ -75,4 +78,9 @@ body {
 }
 .dropdown:hover #arrow {
     display: none;
+}
+
+.li-col{
+    // padding: 20px;
+    color: white;
 }

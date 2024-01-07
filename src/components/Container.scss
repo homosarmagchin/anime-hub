@@ -3,27 +3,6 @@ body {
     position: relative;
 }
 
-#logo {
-    background-color: #081c1f;
-    height: 300px;
-    width: 100%;
-    background-image: url('../images/c1fcbae83968f1b23418c59158ff1f8d.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    img {
-        border-radius: 50%;
-        margin: 0;
-        padding: 0;
-        position: absolute;
-        top: 50px;
-        left: 50px;
-        width: 100px;
-        height: 100px;
-    }
-}
-
 #sidebar {
     position: absolute;
     z-index: 5;
@@ -34,7 +13,8 @@ body {
 }
 
 #footer {
+    // margin-top: 20px;
     position: absolute;
     // top: 1700px;
-    bottom: -50px;
+    bottom: -70px;
 }

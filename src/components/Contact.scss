@@ -1,0 +1,22 @@
+#foo {
+    width: 1515px;
+    position: absolute;
+    bottom: -500px;
+}
+
+#content {
+    h2 {
+        position: absolute;
+        left: 400px;
+        top: 350px;
+    }
+
+    section {
+        text-align: justify;
+        line-height: 30px;
+        width: 600px;
+        position: absolute;
+        left: 430px;
+        bottom: -300px;
+    }
+}
