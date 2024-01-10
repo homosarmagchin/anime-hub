@@ -4,8 +4,6 @@ import arrow from '../images/right-arrow.png';
 import { Link } from 'react-router-dom';
 export default function SideBar() {
 
-
-
     return (
         <div>
             <div className='dropdown'>
