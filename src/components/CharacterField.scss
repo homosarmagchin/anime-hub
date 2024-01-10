@@ -1,3 +1,24 @@
 body {
     background-color: #002a32;
+
+    input {
+        padding: 10px;
+        font-size: 20px;
+        border-radius: 50px;
+        height: 20px;
+        width: 100px;
+        transition: width 1.5s;
+    }
+
+    input:hover {
+        // height: 250px;
+        border-radius: 20px;
+        width: 300px;
+    }
+
+    #search-section {
+        position: absolute;
+        right: 100px;
+        top: 320px;
+    }
 }

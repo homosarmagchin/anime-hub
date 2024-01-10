@@ -21,11 +21,12 @@ export default function CharacterField() {
   return (
     <div>
       <div id='char-field'>
-        <div>
-          <label htmlFor="userInput">Enter something: </label>
+        <div id='search-section'>
+          <label htmlFor="userInput"> </label>
           <input
             type="text"
             id="userInput"
+            placeholder='Search'
             value={userInput}
             onChange={handleChange}
           />
