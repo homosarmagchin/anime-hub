@@ -2,6 +2,7 @@ import React from 'react'
 import Header from './Header';
 import Footer from './Footer';
 import './Contact.scss';
+import asd from '../images/pngegg.png';
 import SideBar from './SideBar';
 export default function Contact() {
   return (
@@ -14,15 +15,15 @@ export default function Contact() {
           <SideBar />
         </div>
         <div id='content'>
-          <h2>Purpose</h2>
-          <section>
-            <h4>
-              I wanted to create my own portfolio by cloning web sites that i'm interested in. 
-              And here's one of the sample. It may looks obvious that's still needs to be improved. 
-              I'm working on it. So, please suggest some of the things should be improved.
-              It will be inspiration to me. Thank you all.
-            </h4>
-          </section>
+          <h2>Contact:</h2>
+          <div id='bar' href='https://www.facebook.com/h0mosarmagchin'>
+            <a href='https://www.facebook.com/h0mosarmagchin'>
+              <img alt='asd' src={asd} href='https://www.facebook.com/h0mosarmagchin'>
+
+              </img>
+              <p>Facebook</p>
+            </a>
+          </div>
         </div>
         <div id='foo'>
           <Footer />

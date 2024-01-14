@@ -6,16 +6,16 @@ import About from '../src/components/About';
 // import { URLSearchParams } from 'react-router-dom'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 function App() {
-  
+
   return (
     <div>
       <Router>
         <div id='content'>
           <Routes>
             <Route path='/' element={<Home />} />
-            <Route path='home' element={<Home />} />
-            <Route path='about' element={<About />} />
-            <Route path='contact' element={<Contact />} />
+            <Route path='/home' element={<Home />} />
+            <Route path='/about' element={<About />} />
+            <Route path='/contact' element={<Contact />} />
             <Route path='*' element={<NotFound />} />
           </Routes>
         </div>

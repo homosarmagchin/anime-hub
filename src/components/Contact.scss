@@ -11,6 +11,30 @@
         top: 350px;
     }
 
+    #bar {
+        cursor: pointer;
+
+        a {
+            display: flex;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            p{
+                position: absolute;
+                left: 30px;
+                top: -15px;
+            }
+            img {
+                width: 20px;
+                height: 20px;
+            }
+        }
+
+        position: absolute;
+        left: 480px;
+        top: 450px;
+    }
+
     section {
         text-align: justify;
         line-height: 30px;
